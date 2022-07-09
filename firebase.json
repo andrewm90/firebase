@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "site": "crankyapp",
+    "public": "/home/andrewm90/firebase-fun",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/"
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
